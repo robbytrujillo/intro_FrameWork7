@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags-->
+        <meta charset="utf-8">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <!-- Color theme for statusbar (Android only) -->
+        <meta name="theme-color" content="#2196f3">
+        <!-- Your app title -->
+        <title>My App</title>
+        <!-- Path to Framework7 Library Bundle CSS -->
+        <link rel="stylesheet" href="css/framework7.bundle.min.css">
+        <link rel="stylesheet" href="css/framework7-icons.css" />
+        <!-- Path to your custom app styles-->
+        <!-- <link rel="stylesheet" href="path/to/my-app.css"> -->
+    </head>
+    <body>
+        <!-- App root element -->
+        <div id="app">
+
+            <!-- Your main view, should have "view-main" class -->
+            <div class="view view-main">
+                <!-- Initial Page, "data-name" contains page name -->
+                <div data-name="home" class="page">
+
+                    <!-- Top Navbar -->
+                    <div class="navbar">
+                        <div class="navbar-bg"></div>
+                        <div class="navbar-inner">
+                            <div class="title">Awesome App</div>
+                        </div>
+                    </div>
+
+                    <!-- Bottom Toolbar -->
+                    <div class="toolbar toolbar-bottom">
+                        <div class="toolbar-inner">
+                            <!-- Toolbar links -->
+                            <a href="#" class="link">Link 1</a>
+                            <a href="#" class="link">Link 2</a>
+                        </div>
+                    </div>
+
+                    <!-- Scrollable page content -->
+                    <div class="page-content">
+                        <div class="block">
+                            <div class="list accordion-list">
+                                <ul>
+                                    <li class="accordion-item">
+                                        <a href class="item-link item-content">
+                                            <div class="item-inner">
+                                                <div class="item-title">Item 1</div>
+                                            </div>
+                                        </a>
+                                        <div class="accordion-item-content">Item
+                                            1 content ...</div>
+                                    </li>
+                                    <li class="accordion-item">
+                                        <a href class="item-link item-content">
+                                            <div class="item-inner">
+                                                <div class="item-title">Item 2</div>
+                                            </div>
+                                        </a>
+                                        <div class="accordion-item-content">Item
+                                            2 content ...</div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- badge-layout -->
+                            <span class="badge">32</span>
+
+                            <!-- Green badge -->
+                            <span class="badge color-blue">32</span>
+
+                            <!-- Red badge -->
+                            <span class="badge color-red">15</span>
+
+                            <!-- rounded button -->
+                            <a
+                                class="button button-round button-fill color-orange">Button</a>
+
+                            <div class="block-title">Default setup</div>
+                            <div class="list no-hairlines-md">
+                                <ul>
+                                    <li>
+                                        <div class="item-content item-input">
+                                            <div class="item-inner">
+                                                <div class="item-input-wrap">
+                                                    <input type="text"
+                                                        placeholder="Your birth date"
+                                                        readonly="readonly"
+                                                        id="demo-calendar-default" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Floating Action Button -->
+                            <div class="fab fab-right-bottom">
+                                <a href="#">
+                                    <i class="icon f7-icons">plus</i>
+                                </a>
+                            </div>
+                            <!-- Another Floating Action Button -->
+                            <div class="fab fab-left-bottom">
+                                <a href="#">
+                                    <i class="icon f7-icons">logo_github</i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Path to Framework7 Library Bundle JS-->
+        <script type="text/javascript" src="js/framework7.bundle.min.js"></script>
+        <!-- Path to your app js-->
+        <script type="text/javascript" src="js/my-app.js"></script>
+    </body>
+</html>
