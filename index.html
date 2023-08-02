@@ -25,14 +25,92 @@
                 <!-- Initial Page, "data-name" contains page name -->
                 <div data-name="home" class="page">
 
-                    <!-- Top Navbar -->
-                    <!-- <div class="navbar">
+                    <!-- Top Navbar  -->
+                    <div class="navbar">
                         <div class="navbar-bg"></div>
                         <div class="navbar-inner">
-                            <div class="title">Awesome App</div>
+                            <div class="left">
+                                <a href="#"><i class="icon f7-icons">chevron_left</i>Back</a>
+                                </div>
+                            <div class="title">seldakam</div>
+                            <div class="right">
+                                <a href="#"><i class="icon f7-icons color-green">menu</i></a>
+                                </div>
                         </div>
-                    </div> -->
+                    </div>
 
+                    <div class="page-content">
+                        <form class="list" id="my-form">
+                            <ul>
+                              <li>
+                                <div class="item-content item-input">
+                                  <div class="item-inner">
+                                    <div class="item-title item-label">Name</div>
+                                    <div class="item-input-wrap">
+                                      <input type="text" name="name" placeholder="Your name">
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="item-content item-input">
+                                  <div class="item-inner">
+                                    <div class="item-title item-label">NIK</div>
+                                    <div class="item-input-wrap">
+                                      <input type="text" name="nik" placeholder="Your NIK">
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="item-content item-input">
+                                  <div class="item-inner">
+                                    <div class="item-title item-label">E-mail</div>
+                                    <div class="item-input-wrap">
+                                      <input type="email" name="email" placeholder="E-mail">
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="item-content item-input">
+                                  <div class="item-inner">
+                                    <div class="item-title item-label">Gender</div>
+                                    <div class="item-input-wrap">
+                                      <select name="gender">
+                                        <option value="male" selected>Male</option>
+                                        <option value="female">Female</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="item-content">
+                                  <div class="item-inner">
+                                    <div class="item-title">Toggle</div>
+                                    <div class="item-after">
+                                      <label class="toggle toggle-init">
+                                        <input type="checkbox" name="toggle" value="yes"><i class="toggle-icon"></i>
+                                      </label>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </form>
+                          
+                          <div class="block block-strong row">
+                            <div class="col"><a class="button button-fill convert-form-to-data" href="#">Get Data</a></div>
+                            <div class="col"><a class="button button-fill fill-form-from-data" href="#">Fill Form</a></div>
+                            
+                        </div>
+                        <div class="block">
+                            <p>
+                              <a class="button button-raised open-full" href="#">Full-layout notification</a>
+                            </p></div>
+                    </div>
+                    
                     <!-- Bottom Toolbar -->
                     <!-- <div class="toolbar toolbar-bottom">
                         <div class="toolbar-inner"> -->
@@ -105,20 +183,20 @@
                                 </a>
                             </div>
                             <!-- Another Floating Action Button -->
-                            <div class="fab fab-left-bottom">
+                            <!-- <div class="fab fab-left-bottom">
                                 <a href="#">
                                     <i class="icon f7-icons">logo_github</i>
                                 </a>
-                            </div>
+                            </div> -->
 
                             <div class="fab fab-left-top color-yellow">
                                 <a href="#">
                                     <!-- Icons For iOS Theme -->
-                                    <i class="icon f7-icons if-not-md">add</i>
-                                    <i class="icon f7-icons if-not-md">close</i>
+                                    <i class="icon f7-icons if-not-md">app_badges</i>
+                                    <i class="icon f7-icons if-not-md">chevron_up</i>
                                     <!-- Icons For MD Theme -->
-                                    <i class="icon material-icons md-only">add</i>
-                                    <i class="icon material-icons md-only">close</i>
+                                    <i class="icon f7-icons md-only">app_badges</i>
+                                    <i class="icon f7-icons md-only">chevron_up</i>
                                 </a>
                                 <!-- FAB speed dial actions -->
                                 <div class="fab-buttons fab-buttons-bottom">
@@ -127,7 +205,7 @@
                                     <a href>3</a>
                                 </div>
                             </div>
-
+                            
                         </div>
                     </div>
                 </div>
